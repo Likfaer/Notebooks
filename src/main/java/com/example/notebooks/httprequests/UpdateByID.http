@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/notes/1
+Content-Type: application/json
+
+{
+  "title": "Первая заметка обновлённая",
+  "content": "Cодержание первой заметки обновлённой",
+  "createdAt": "2000-01-01T12:00:00"
+}

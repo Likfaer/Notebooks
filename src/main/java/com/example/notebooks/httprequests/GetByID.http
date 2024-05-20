@@ -1,0 +1,2 @@
+GET http://localhost:8080/api/notes/1
+//Замена 1 на нужный ID

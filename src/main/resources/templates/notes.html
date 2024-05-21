@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Notes</title>
+</head>
+<body>
+    <h1>Notes</h1>
+    <ul>
+        <li th:each="note : ${notes}">
+            <p th:text="${note.title}"></p>
+            <p th:text="${note.content}"></p>
+            <p th:text="${note.createdAt}"></p>
+        </li>
+    </ul>
+</body>
+</html>
